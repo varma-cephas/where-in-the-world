@@ -31,3 +31,20 @@ body{
     width: 1rem;
 }
 
+.formsContainer{
+    border: 2px solid springgreen;
+    padding: 1rem 0.8rem;
+}
+.formsContainer input[type=text]{
+    box-sizing: border-box;
+    border: 2px solid purple;
+    background-color: hsl(209, 23%, 22%);
+    padding: 1rem 3.5rem;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    font-size: 1.1rem;
+    background-image: url("/assets/moon.svg");
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 1rem 1rem;
+}
