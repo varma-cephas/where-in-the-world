@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+
+*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0, 0%, 100%);
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.8rem ;
+    background-color: hsl(209, 23%, 22%);
+}
+
+.darkModeIcon{
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkModeIcon img{
+    width: 1rem;
+}
+
