@@ -25,6 +25,7 @@ body{
     gap: 0.4rem;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .darkModeIcon img{
@@ -32,19 +33,40 @@ body{
 }
 
 .formsContainer{
-    border: 2px solid springgreen;
+    /* border: 2px solid springgreen; */
     padding: 1rem 0.8rem;
 }
 .formsContainer input[type=text]{
     box-sizing: border-box;
-    border: 2px solid purple;
+    border: 2px solid hsl(209, 23%, 22%);
     background-color: hsl(209, 23%, 22%);
+    border-radius: 0.5rem;
     padding: 1rem 3.5rem;
     color: hsl(0, 0%, 100%);
     width: 100%;
     font-size: 1.1rem;
-    background-image: url("/assets/moon.svg");
+    background-image: url("/assets/search-outline.svg");
     background-repeat: no-repeat;
     background-size: 1.5rem;
     background-position: 1rem 1rem;
+}
+
+.formsContainer select[name=filter-region]{
+    border: 2px solid hsl(209, 23%, 22%);
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+    padding: 1rem 3.5rem 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.countryContainer{
+    /* border: 2px solid white; */
+    padding: 1.5rem 2rem;
+}
+
+.countryContainer img{
+    box-sizing: border-box;
+    width: 100%;
 }

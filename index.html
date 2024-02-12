@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rest Countries</title>
         <link type="text/css" rel="stylesheet" href="./css/main.css">
-        <script defer src="./js/app.js"></script>
+        <script defer src="./js/app.js" type="text/javascript"></script>
     </head>
     <body>
         <nav>
@@ -23,7 +23,7 @@
 
                 <form>
                     <select name="filter-region" id="region-filter">
-                        <option selected>Filter By Region</option>
+                        <option hidden>Filter By Region</option>
                         <option value="africa">Africa</option>
                         <option value="america">America</option>
                         <option value="asia">Asia</option>
@@ -33,5 +33,15 @@
                 </form>
             </div>
         </nav>
+
+        <div class="countryContainer">
+            <img class="countryFlag" id="countryOneFlag" alt="">
+            <div class="countryInfo">
+                <h3 class="countryName" id="countryOneName"></h3>
+                <p class="countryPopulation">Population: <span id="countryOnePopulationAmount"></span></p>
+                <p class="countryRegion">Region: <span id="countryOneRegion"></span></p>
+                <p class="countryCapital">Capital: <span id="countryOneCapital"></span></p>
+            </div>
+        </div>
     </body>
 </html>
