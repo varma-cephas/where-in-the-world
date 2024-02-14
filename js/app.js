@@ -65,10 +65,6 @@ const countryTenPopulationAmount = document.querySelector("#countryTenPopulation
 const countryTenRegion = document.querySelector("#countryTenRegion");
 const countryTenCapital = document.querySelector("#countryTenCapital");
 
-darkModeButton.addEventListener("click",()=>{
-    console.log('clicked')
-})
-
 fetch('./data.json')
     .then((response)=>response.json())
     .then((data)=>{
@@ -144,6 +140,10 @@ filterAfrica.addEventListener("click",()=>{
             }
         }
     })
+})
+
+darkModeButton.addEventListener("click",()=>{
+    document.body.classList.toggle("changeBackgroundColor")
 })
 
 

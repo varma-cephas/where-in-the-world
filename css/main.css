@@ -70,3 +70,8 @@ body{
     box-sizing: border-box;
     width: 100%;
 }
+
+.changeBackgroundColor{
+    background-color: white;
+    color: black;
+}
